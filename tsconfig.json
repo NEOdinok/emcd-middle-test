@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["dom", "dom.iterable", "es6"],
+    "allowJs": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "rootDir": ".",
+    "removeComments": true,
+    "strict": true,
+    "moduleResolution": "node",            
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*", "./dist/*", ""],
+      "components/*": ["./src/components/*"],
+    },
+  },
+  "include": [
+    "src",
+    "declaration.d.ts",
+  ],
+  "exclude": [
+    "./node_modules",
+    "./build",
+    "./dist"
+  ]
+}
