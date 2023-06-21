@@ -8,7 +8,8 @@
     "build": "vite --config vite.config.js build",
     "dev": "vite --config vite.config.js serve",
     "preview": "vite --config vite.config.js preview",
-    "doc": "jsdoc -c jsdoc.json"
+    "doc": "jsdoc -c jsdoc.json",
+    "lint": "eslint . --ext .ts"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -19,16 +20,28 @@
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@types/react": "^18.2.13",
     "@types/react-dom": "^18.2.6",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
     "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.14",
     "axios": "^1.4.0",
     "better-docs": "^2.7.2",
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard-with-typescript": "^35.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.32.2",
     "jsdoc": "3.6.11",
     "path": "^0.12.7",
     "postcss": "^8.4.24",
+    "prettier": "^2.8.8",
     "sass": "^1.63.4",
     "tailwindcss": "^3.3.2",
-    "typescript": "^5.1.3",
+    "typescript": "*",
     "vite": "^4.3.9"
   }
 }
