@@ -9,7 +9,7 @@ interface Props {
 const CardsPage: React.FC<Props> = memo(({ fetchUsers }) => {
     const [users, setUsers] = useState<Array<UserEntry>>([]);
 
-    // this one
+    // try me
     // console.log('users', users);
 
     useEffect(() => {
