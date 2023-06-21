@@ -2,11 +2,6 @@ module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-
-    // "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    // "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    // "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    // "./src/slices/**/*.{js,ts,jsx,tsx,mdx}",  
   ],
   theme: {
     fontFamily: {
@@ -18,7 +13,7 @@ module.exports = {
       colors: {
         primary: {
           "100": "#646cff",
-        }
+        },
       }
     },
   },
