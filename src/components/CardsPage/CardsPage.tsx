@@ -18,16 +18,14 @@ const CardsPage: React.FC<Props> = memo(({ fetchUsers }) => {
         })
     }, []);
 
-    return users.map((user) =>  {
-      return (
-          <UserCard
-            key={user.email}
-            email={user.email}
-            name={`${user.name.title} ${user.name.first} ${user.name.last}`}
-            imageURL={user.picture.large}
-          />
-      )
-    })
+    return users.map(user =>  
+      <UserCard
+        key={user.email}
+        email={user.email}
+        name={`${user.name.title} ${user.name.first} ${user.name.last}`}
+        imageURL={user.picture.large}
+      />
+    )
 })
 
 export default CardsPage;
